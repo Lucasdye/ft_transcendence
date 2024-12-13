@@ -1,22 +1,3 @@
 # ft_transcendence
-
-Que des bgs dans ma team
-run server: python3 runserver.py
-create superuser: python3 manage.py createsuperuser --username=joe --email=joe@example.com
-Migration:
-    python3 manage.py makemigrations
-    python3 manage.py showmigrations
-    python3 manage.py migrate
-
-Access sqlite3 db via django shell:
-	python manage.py shell
-	from page.models import CustomUser
-	users = CustomUser.objects.all()
-	for user in users:
-    	print(user.username, user.email)
-Delete all users: CustomUser.objects.all().delete()
-
-Create a new app:
-	python manage.py startapp myapp
-
-
+This secured 3D web site offers you to play a 3D pong game playable against a real player or a bot in a 1V1 or tournament context, basic site web features like registering, account settings (e.g., change username, profil picture), a friendship system, an invitation to play a pong game feature, a match history and more.
+![Screenshot from 2024-12-13 13-00-34](https://github.com/user-attachments/assets/776b0805-68d5-455c-96d3-d719d83b4139)

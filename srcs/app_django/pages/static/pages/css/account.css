@@ -1,0 +1,52 @@
+
+.form-container {
+    max-width: 300px;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+.form-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.form-container button {
+    width: 48%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.form-container .login-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+.form-container .register-btn {
+    background-color: #008CBA;
+    color: white;
+}
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+#loginError 
+{
+  margin-top: 8px;
+  color: #ff5b5b;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
